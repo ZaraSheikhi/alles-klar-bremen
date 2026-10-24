@@ -33,7 +33,7 @@ public/                      # CNAME, robots.txt, sitemap.xml, favicon, Bilder
 - [ ] Erreichbarkeit (Mo–Sa 08–18 Uhr) bestätigen.
 - [ ] Rechtstexte (Impressum, Datenschutz, AGB) final prüfen lassen.
 - [ ] Klären, ob die Preise im Rechner inkl. MwSt. sind (Pflicht bei Preisangaben an Privatkunden) bzw. ob Kleinunternehmerregelung gilt – dann Hinweis im Rechner ergänzen.
-- [ ] WhatsApp Business auf +49 176 32043104 einrichten (Begrüßungs- und Abwesenheitsnachricht).
+- [ ] WhatsApp Business auf +49 1590 8021460 einrichten (Begrüßungs- und Abwesenheitsnachricht).
 
 ## Marketing-Bausteine
 

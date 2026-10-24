@@ -7,10 +7,10 @@ export const company = {
   street: "Achterdiek 68D",
   zip: "28359",
   city: "Bremen",
-  phone: "+49 176 32043104",
-  phoneHref: "tel:+4917632043104",
+  phone: "+49 1590 8021460",
+  phoneHref: "tel:+4915908021460",
   email: "kontakt@allesklar-bremen.de",
-  whatsapp: "4917632043104",
+  whatsapp: "4915908021460",
   // Zugangsschlüssel von web3forms.com (öffentlich, darf im Code stehen)
   web3formsKey: "d356c7da-69b5-42be-9dc3-e74b8a3625f9",
   taxNumber: "6022202977",
