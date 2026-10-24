@@ -11,8 +11,7 @@ export const company = {
   phoneHref: "tel:+4917632043104",
   email: "kontakt@allesklar-bremen.de",
   whatsapp: "4917632043104",
-  // TODO: Steuernummer von Alles Klar eintragen
-  taxNumber: "[Steuernummer folgt]",
+  taxNumber: "6022202977",
   hours: "Montag bis Samstag, 08:00 – 18:00 Uhr",
   hoursNote: "Sonntag nach Vereinbarung",
   area: "Bremen und Umgebung",

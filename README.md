@@ -29,7 +29,7 @@ public/                      # CNAME, robots.txt, sitemap.xml, favicon, Bilder
 
 - [x] Logo eingebunden (`public/images/brand/logo.webp`, freigestellt aus dem Original)
 - [x] Vorschaubild für WhatsApp/Facebook (`public/images/brand/og-image.png`, 1200×630)
-- [ ] **Steuernummer** in `siteContent.js` → `company.taxNumber` eintragen (Impressum).
+- [x] Steuernummer eingetragen (`company.taxNumber`).
 - [ ] Erreichbarkeit (Mo–Sa 08–18 Uhr) bestätigen.
 - [ ] Rechtstexte (Impressum, Datenschutz, AGB) final prüfen lassen.
 - [ ] Klären, ob die Preise im Rechner inkl. MwSt. sind (Pflicht bei Preisangaben an Privatkunden) bzw. ob Kleinunternehmerregelung gilt – dann Hinweis im Rechner ergänzen.
