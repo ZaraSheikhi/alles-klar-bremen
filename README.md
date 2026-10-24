@@ -41,9 +41,9 @@ public/                      # CNAME, robots.txt, sitemap.xml, favicon, Bilder
 - **Preisrechner** (`pricing`): unverbindlich 30–50 € je 10 m² pro Reinigung. Übergibt die Fläche an Kontaktformular (`/kontakt?flaeche=…`) und WhatsApp-Text.
 - **SEO-Seiten** (`seoPages`): `/bueroreinigung-bremen`, `/fensterreinigung-bremen`, `/treppenhausreinigung-bremen`, `/umzugsreinigung-bremen`. Neue Seite = neuer Eintrag in `seoPages` + URL in `public/sitemap.xml`.
 
-## Kontaktformular (FormSubmit)
+## Kontaktformular (Web3Forms)
 
-Das Formular sendet an `kontakt@allesklar-bremen.de`. Beim **ersten** Absenden nach dem Livegang schickt FormSubmit eine Aktivierungs-E-Mail an diese Adresse – den Link darin einmal bestätigen, sonst kommen keine Anfragen an. Nach dem Absenden landet der Besucher auf `/danke`.
+Das Formular sendet über Web3Forms an `kontakt@allesklar-bremen.de`. Der Zugangsschlüssel steht in `siteContent.js` → `company.web3formsKey`; er ist an die Empfängeradresse gebunden und darf öffentlich sein. Nach dem Absenden landet der Besucher auf `/danke`. (FormSubmit wurde ersetzt, weil dessen Aktivierungs-Mail nie bei Strato ankam.)
 
 ## Veröffentlichung (GitHub Pages)
 

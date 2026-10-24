@@ -11,6 +11,8 @@ export const company = {
   phoneHref: "tel:+4917632043104",
   email: "kontakt@allesklar-bremen.de",
   whatsapp: "4917632043104",
+  // Zugangsschlüssel von web3forms.com (öffentlich, darf im Code stehen)
+  web3formsKey: "d356c7da-69b5-42be-9dc3-e74b8a3625f9",
   taxNumber: "6022202977",
   hours: "Montag bis Samstag, 08:00 – 18:00 Uhr",
   hoursNote: "Sonntag nach Vereinbarung",

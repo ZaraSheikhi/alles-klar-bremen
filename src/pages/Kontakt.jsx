@@ -63,17 +63,17 @@ export default function Kontakt() {
         </aside>
 
         <form
-          action={`https://formsubmit.co/${company.email}`}
+          action="https://api.web3forms.com/submit"
           method="POST"
           className="rounded-[2rem] bg-white p-6 shadow-[0_30px_80px_-40px_rgba(11,45,135,0.45)] ring-1 ring-navy/10 sm:p-10"
         >
-          <input type="hidden" name="_subject" value="Neue Reinigungsanfrage über allesklar-bremen.de" />
-          <input type="hidden" name="_next" value={`${company.siteUrl}/danke`} />
-          <input type="hidden" name="_template" value="table" />
-          <input type="hidden" name="_captcha" value="true" />
+          <input type="hidden" name="access_key" value={company.web3formsKey} />
+          <input type="hidden" name="subject" value="Neue Reinigungsanfrage über allesklar-bremen.de" />
+          <input type="hidden" name="from_name" value={company.name} />
+          <input type="hidden" name="redirect" value={`${company.siteUrl}/danke`} />
           <input
-            type="text"
-            name="_honey"
+            type="checkbox"
+            name="botcheck"
             tabIndex={-1}
             autoComplete="off"
             aria-hidden="true"

@@ -97,11 +97,11 @@ export function Datenschutz() {
         vorvertraglichen oder vertraglichen Anliegen, ansonsten Art. 6 Abs. 1 lit. f DSGVO.
       </p>
       <p>
-        Für die Übermittlung des Formulars nutzen wir den Dienst FormSubmit. Beim Absenden werden die eingegebenen Daten
-        an FormSubmit übertragen und anschließend per E-Mail an uns weitergeleitet. Dabei können Daten auch außerhalb der
+        Für die Übermittlung des Formulars nutzen wir den Dienst Web3Forms. Beim Absenden werden die eingegebenen Daten
+        an Web3Forms übertragen und anschließend per E-Mail an uns weitergeleitet. Dabei können Daten auch außerhalb der
         EU verarbeitet werden. Weitere Informationen finden Sie unter{" "}
-        <a href="https://formsubmit.co/privacy.pdf" rel="noopener">
-          formsubmit.co/privacy.pdf
+        <a href="https://web3forms.com/privacy" rel="noopener">
+          web3forms.com/privacy
         </a>
         . Wenn Sie dies nicht wünschen, kontaktieren Sie uns bitte direkt per Telefon oder E-Mail.
       </p>
