@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0b2d87;
+  --color-navy-deep: #071f60;
+  --color-sky: #5ab3e5;
+  --color-sky-soft: #e6f4fc;
+  --color-mist: #d9d9d9;
+  --color-cloud: #f4f6f9;
+  --color-slate: #5e5e62;
+  --color-whatsapp: #25d366;
+
+  --font-display: "Fredoka Variable", ui-rounded, system-ui, sans-serif;
+  --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-white font-sans text-slate antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display font-semibold text-navy;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-sky);
+    outline-offset: 3px;
+  }
+}
+
+@utility container-page {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full px-6 py-3 font-display text-base font-semibold transition duration-200;
+}
+@utility btn-primary {
+  @apply btn bg-navy text-white shadow-[0_10px_30px_-10px_rgba(11,45,135,0.6)] hover:-translate-y-0.5 hover:bg-navy-deep;
+}
+@utility btn-light {
+  @apply btn bg-white text-navy ring-1 ring-navy/15 hover:-translate-y-0.5 hover:ring-navy/40;
+}
+@utility btn-sky {
+  @apply btn bg-sky text-navy-deep hover:-translate-y-0.5 hover:bg-white;
+}
+@utility btn-whatsapp {
+  @apply btn bg-whatsapp text-[#05341b] hover:-translate-y-0.5 hover:brightness-105;
+}
+@utility eyebrow {
+  @apply inline-flex items-center gap-2 font-display text-sm font-semibold uppercase tracking-[0.14em] text-sky;
+}
+
+@layer components {
+  .legal h2 {
+    @apply mt-10 mb-3 text-xl;
+  }
+  .legal p,
+  .legal li {
+    @apply leading-relaxed;
+  }
+  .legal ul {
+    @apply list-disc space-y-1 pl-5;
+  }
+  .legal a {
+    @apply text-navy underline decoration-sky underline-offset-4;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .twinkle {
+    animation: twinkle 3.6s ease-in-out infinite;
+  }
+  .twinkle-delay {
+    animation-delay: 1.2s;
+  }
+  .twinkle-delay-2 {
+    animation-delay: 2.3s;
+  }
+  .reveal {
+    animation: reveal 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.82);
+  }
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
